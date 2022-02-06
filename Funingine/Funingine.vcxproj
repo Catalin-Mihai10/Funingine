@@ -59,6 +59,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>FE_PLATFORM_WINDOWS;FE_BUILD_DLL;_WINDLL;%(PrepocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)Funingine\vendor\spdlog\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -73,6 +74,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>FE_PLATFORM_WINDOWS;FE_BUILD_DLL;_WINDLL;%(PrepocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)Funingine\vendor\spdlog\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -82,6 +84,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="source\Funingine\Log.h" />
     <ClInclude Include="source\Funingine.h" />
     <ClInclude Include="source\Funingine\CoreMacros.h" />
     <ClInclude Include="source\Funingine\EntryPoint.h" />
@@ -89,8 +92,9 @@
     <ClInclude Include="source\Header.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="source\Funingine\Log.cpp" />
     <ClCompile Include="source\Funingine\MainApplication.cpp" />
-    <ClCompile Include="source\Source.cpp" />
+    <ClCompile Include="source\Funingine.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

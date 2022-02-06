@@ -1,0 +1,3 @@
+[submodule "Funingine/vendor/spdlog"]
+	path = Funingine/vendor/spdlog
+	url = https://github.com/gabime/spdlog

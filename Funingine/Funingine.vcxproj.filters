@@ -30,12 +30,18 @@
     <ClInclude Include="source\Funingine\EntryPoint.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="source\Funingine\Log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="source\Source.cpp">
+    <ClCompile Include="source\Funingine.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="source\Funingine\MainApplication.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Funingine\Log.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
