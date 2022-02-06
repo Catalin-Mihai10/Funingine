@@ -1,0 +1,7 @@
+# Ingored Directories
+.vs/
+bin/
+bin-int/
+
+# Ignored Files
+*.user
